@@ -1,0 +1,17 @@
+.GiftCard {
+    margin-top: 50px;
+    width: 196px;
+    margin-left: 20px;
+    position: relative;
+
+    p {
+        margin: 4px 0 10px;
+    }
+
+    .gift {
+        border-bottom-right-radius: 15px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}

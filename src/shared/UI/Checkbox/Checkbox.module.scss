@@ -1,0 +1,57 @@
+@import '../../../styles/variables.scss';
+
+.CheckboxWrapper {
+    display: inline-block;
+    position: relative;
+    padding-left: 22px;
+    cursor: pointer;
+    font-family: 'Circe Rounded';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    color: $placeholderColor;
+
+
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 16px;
+        width: 16px;
+        background-color: transparent;
+        border-radius: 4px;
+        border: 1px solid rgba(200, 197, 205, 1)
+    }
+
+    input:checked~.checkmark {
+        background-color: $brightColor;
+    }
+
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    input:checked~.checkmark:after {
+        display: block;
+    }
+
+    .checkmark:after {
+        left: 4px;
+        top: 1px;
+        width: 5px;
+        height: 9px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg);
+    }
+}

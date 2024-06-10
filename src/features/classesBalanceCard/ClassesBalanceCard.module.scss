@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+
+.ClassesBalanceCard {
+    .containerInfo {
+        margin-top: 16px;
+    }
+
+    .cardInfo {
+        padding: 20px 0;
+
+        span {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25.54px;
+            background-color: $menuColor;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            color: $primaryColor;
+        }
+    }
+}

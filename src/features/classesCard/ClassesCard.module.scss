@@ -1,0 +1,90 @@
+@import '../../styles/variables.scss';
+
+.ClassesCard {
+    
+    .table {
+        width: 100%;
+        border-spacing: 0;
+        border-collapse: collapse;
+        margin-top: 16px;
+    }
+
+    .row {
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    .hrRow {
+        td {
+            padding: 0;
+        }
+    }
+
+    .dateContainer,
+    .textNoWrap,
+    .time,
+    .teacherName,
+    .buttonGroup {
+        padding: 11px;
+        vertical-align: middle;
+    }
+
+    .dateContainer {
+        width: 42px;
+        display: flex;
+
+        align-items: center;
+        flex-direction: column;
+
+        .date {
+            color: $primaryColor;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16.2px;
+        }
+    }
+
+    .textNoWrap,
+    .time,
+    .teacherName {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .time {
+        margin: 0 24px;
+    }
+
+    .teacherName {
+        position: relative;
+        margin-right: 64px;
+        padding-left: 16px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url('../../shared/assets/icons/teacher.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 16px;
+            height: 16px;
+            bottom: 27px;
+            left: -2px;
+            display: block;
+        }
+    }
+
+    .buttonGroup {
+        display: flex;
+        gap: 4px;
+    }
+
+    
+}
+
+.btn {
+    margin-top: 32px;
+    padding: 9px 148px;
+}

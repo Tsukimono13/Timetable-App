@@ -1,0 +1,362 @@
+{
+  "timetable": [
+    {
+      "id": 1,
+      "day": "ПН",
+      "date": 26,
+      "classes": [{ "title": "", "time": "", "futureClass": false }]
+    },
+    {
+      "id": 2,
+      "day": "ПН",
+      "date": 27,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        },
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "canceled": true,
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "day": "ВТ",
+      "date": 28,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "day": "СР",
+      "date": 29,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "day": "ЧТ",
+      "date": 30,
+      "classes": [{ "title": "", "time": "" }]
+    },
+    {
+      "id": 8,
+      "day": "СБ",
+      "date": 1,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "day": "ВС",
+      "date": 2,
+      "classes": [{ "title": "", "time": "" }]
+    },
+    {
+      "id": 10,
+      "day": "ПН",
+      "date": 3,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "needToPay": true,
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "day": "ВТ",
+      "date": 4,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "day": "СР",
+      "date": 5,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "day": "ЧТ",
+      "date": 6,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "canceled": true,
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "day": "ПТ",
+      "date": 7,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "day": "СБ",
+      "date": 8,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "day": "ВС",
+      "date": 9,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "canceled": true,
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "day": "ПН",
+      "date": 10,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "day": "ВТ",
+      "date": 11,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "day": "СР",
+      "date": 12,
+      "classes": [{ "title": "", "time": "", "futureClass": false }]
+    },
+    {
+      "id": 20,
+      "day": "ЧТ",
+      "date": 13,
+      "classes": [{ "title": "", "time": "", "futureClass": false }]
+    },
+    {
+      "id": 21,
+      "day": "ПТ",
+      "date": 14,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        },
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "needToPay": true,
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "day": "СБ",
+      "date": 15,
+      "classes": [{ "title": "", "time": "", "futureClass": false }]
+    },
+    {
+      "id": 23,
+      "day": "ВС",
+      "date": 16,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "day": "ПН",
+      "date": 17,
+      "classes": [{ "title": "", "time": "", "futureClass": false }]
+    },
+    {
+      "id": 25,
+      "day": "ВТ",
+      "date": 18,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "day": "СР",
+      "date": 19,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "needToPay": true,
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "day": "ЧТ",
+      "date": 20,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "day": "ПТ",
+      "date": 21,
+      "classes": [{ "title": "", "time": "", "futureClass": false }]
+    },
+    {
+      "id": 29,
+      "day": "СБ",
+      "date": 22,
+      "classes": [{ "title": "", "time": "", "futureClass": false }]
+    },
+    {
+      "id": 30,
+      "day": "ВС",
+      "date": 23,
+      "classes": [{ "title": "", "time": "", "futureClass": false }]
+    },
+    {
+      "id": 31,
+      "day": "ПН",
+      "date": 24,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "day": "ВТ",
+      "date": 25,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "day": "СР",
+      "date": 26,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "day": "ЧТ",
+      "date": 27,
+      "classes": [{ "title": "", "time": "", "futureClass": false }]
+    },
+    {
+      "id": 35,
+      "day": "ПТ",
+      "date": 28,
+      "classes": [
+        {
+          "title": "Ментальная Арифметика",
+          "time": "14:00-14:25",
+          "futureClass": true
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "day": "СБ",
+      "date": 29,
+      "classes": [{ "title": "", "time": "", "futureClass": false }]
+    },
+    {
+      "id": 37,
+      "day": "ВС",
+      "date": 30,
+      "classes": [{ "title": "", "time": "", "futureClass": false }]
+    }
+  ]
+}

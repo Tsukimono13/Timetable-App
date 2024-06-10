@@ -1,0 +1,94 @@
+@import '../../../../styles/variables.scss';
+
+.Table {
+    width: 100%;
+    height: 71vh;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+    th,
+    td {
+        border: 1px solid $borderColor;
+        position: relative;
+        width: calc(100% / 7);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20.25px;
+        color: $placeholderColor;
+    }
+
+    th {
+        text-align: end;
+        border: none;
+        border-bottom: 1px solid $borderTable;
+    }
+
+    td {
+        text-align: left;
+        vertical-align: top;
+        height: 100px;
+        padding: 21px 3px 3px;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 12px;
+        color: $placeholderColor;
+        
+    }
+
+    .date {
+        position: absolute;
+        top: 4px;
+        right: 6px;
+        font-size: 12px;
+        color: $primaryColor;
+        display: flex;
+        gap: 2px;
+    }
+
+    .march {
+        display: block;
+        font-size: 12px;
+        color: $primaryColor;
+    }
+
+    .eventTitle {
+        p {
+            font-weight: 400;
+        }
+    }
+
+    .event,
+    .canceled,
+    .needToPay {
+        padding: 3px;
+        width: 100%;
+    }
+
+    .event {
+        border-radius: 2px;
+        border: 1px solid $successColor;
+        
+    }
+
+    .canceled {
+        border-radius: 2px;
+        border: 1px solid $placeholderColor;
+        text-decoration: line-through;
+    }
+
+    .needToPay {
+        background-color: $successColorBorder;
+        position: relative;
+
+        .payBtn {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            background-color: transparent;
+        }
+    }
+
+    .futureClass {
+        display: none;
+    }
+}

@@ -1,0 +1,30 @@
+@import '../../../styles/variables.scss';
+
+.Card {
+    border-radius: 30px;
+}
+
+.primary {
+    padding: 16px;
+    border-radius: 15px;
+    background-color: $bgColor;
+}
+
+.outlined {
+    padding: 28px;
+    border: 1px solid $borderCardColor;
+}
+
+.background_dark {
+    padding: 56px 27px 0 40px;
+    background-color: $borderCardColor;
+}
+
+.background_light {
+    background-color: rgba(255, 241, 203, 1);
+    padding: 32px 62px;
+}
+
+.max {
+    width: 100%;
+}

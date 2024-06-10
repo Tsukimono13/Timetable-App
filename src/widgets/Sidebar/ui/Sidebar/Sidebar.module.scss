@@ -1,0 +1,25 @@
+@import '../../../../styles//variables.scss';
+
+.Sidebar {
+    background-color: $menuColor;
+    width: 236px;
+    height: 704px;
+    margin-top: 24px;
+    border-radius: 30px;
+    position: relative;
+    opacity: 0px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0 44px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    padding-right: 20px;
+}

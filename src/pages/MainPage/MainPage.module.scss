@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+
+.Main {
+    display: grid;
+    grid-template-areas:
+        'a a a b b c'
+        'd d e e e e'
+    ;
+    gap: 20px;
+    height: 100%;
+    grid-template-rows: 240px 1fr;
+}
+
+.saleCard {
+    grid-area: a;
+    width: 526px;
+}
+
+.timerCard {
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 344px;
+}
+
+.newsCard {
+    grid-area: c;
+    background-color: rgba(232, 203, 255, 1);
+    width: 162px;
+}
+
+.classesBalanceCard {
+    grid-area: d;
+    width: 344px;
+}
+
+.card5 {
+    grid-area: e;
+    width: 708px;
+
+    
+}

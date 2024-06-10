@@ -1,13 +1,30 @@
+@import "./styles/fonts.scss";
+@import "./styles/reset.scss";
+
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Circe Rounded", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+img {
+  display: block;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+hr {
+  border: 1px solid rgba(238, 238, 255, 1);
+  height: 0;
+  width: 100%;
 }

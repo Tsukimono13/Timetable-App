@@ -1,0 +1,23 @@
+.MainLayout {
+    min-height: 100vh;
+    display: flex;
+    gap: 32px;
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .content {
+        width: 100%;
+        max-width: 1072px;
+        height: 100%;
+    }
+
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+}

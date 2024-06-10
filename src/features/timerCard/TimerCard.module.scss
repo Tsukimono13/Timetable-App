@@ -1,0 +1,17 @@
+.TimerCard {
+    
+    .timerTitle {
+        width: 180px;
+        margin-bottom: 32px;
+    }
+
+    .timer {
+        display: flex;
+        align-items: end;
+        gap: 3px;
+    }
+
+    .button {
+        margin-top: 32px;
+    }
+}

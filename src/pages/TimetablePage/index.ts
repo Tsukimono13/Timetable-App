@@ -1,0 +1,1 @@
+export { TimetablePageAsync as TimetablePage } from './TimetablePage.async';

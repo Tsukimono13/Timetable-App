@@ -1,0 +1,116 @@
+@import './../../../styles/variables.scss';
+
+.title {
+    color: $primaryColor;
+    font-weight: 400;
+    font-family: 'Circe Rounded', sans-serif;
+}
+
+.text {
+    color: $primaryColor;
+    font-weight: 400;
+    font-family: 'Circe Rounded', sans-serif;
+}
+
+.bright {
+
+    .text,
+    .title {
+        color: $addedColor;
+    }
+}
+
+.inverted {
+
+    .text,
+    .title {
+        color: $secondColor;
+    }
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.size_xs {
+    .title {
+        font-size: 12px;
+        line-height: 16.2px;
+    }
+
+    .text {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 12px;
+    }
+}
+
+.size_s {
+    .title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .text {
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 12px;
+    }
+}
+
+.size_m {
+    .title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .text {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+.size_l {
+    .title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .text {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+}
+
+.size_xl {
+    .title {
+        font-size: 36px;
+        line-height: 35px;
+    }
+
+    .text {
+        font-size: 15px;
+        line-height: 20.25px;
+    }
+}
+
+.size_xxl {
+    .title {
+        font-size: 40px;
+        line-height: 35px;
+    }
+
+    .text {
+        font-size: 24px;
+        line-height: 21px;
+    }
+}

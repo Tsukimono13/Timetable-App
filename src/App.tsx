@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { MainLayout } from "./shared/layouts/MainLayout";
+import { Navbar } from "./widgets/Navbar";
+import { Sidebar } from "./widgets/Sidebar";
+import { MainPage } from "./pages/MainPage";
+import { HStack } from "./shared/UI/Stack";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { RoutePath } from "./shared/config/routeConfig/routeConfig";
+import { TimetablePage } from "./pages/TimetablePage";
+import { Suspense } from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HStack max justify="center">
+      <MainLayout
+        header={<Navbar />}
+        sidebar={<Sidebar />}
+        content={
+          <Suspense fallback={<div>Loading...</div>}>
+            <Routes>
+              <Route path={RoutePath.main} element={<MainPage />} />
+              <Route path={RoutePath.timetable} element={<TimetablePage />} />
+            </Routes>
+          </Suspense>
+        }
+      />
+    </HStack>
   );
 }
 

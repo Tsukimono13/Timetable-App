@@ -1,0 +1,54 @@
+@import '../../../styles//variables.scss';
+
+.InputWrapper {
+    display: flex;
+    position: relative;
+}
+
+.input {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid $borderColor;
+    color: $primaryColor;
+    font-family: 'Circe Rounded', sans-serif;
+    width: 100%;
+
+    &::placeholder {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.2px;
+        color: $placeholderColor;
+    }
+
+    &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.2px;
+        color: $placeholderColor;
+    }
+
+    &::-ms-input-placeholder {
+        /* Microsoft Edge */
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.2px;
+        color: $placeholderColor;
+    }
+
+    &:focus {
+        border-color: $primaryColor;
+        outline: none;
+    }
+}
+
+.toggleIcon {
+    position: absolute;
+    right: 3%;
+    top: 34%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+}
