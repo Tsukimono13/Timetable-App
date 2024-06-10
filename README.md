@@ -13,7 +13,7 @@ You will also see any lint errors in the console.
 
 ### `npm start:server`
 
-Runs the the json-server
+Runs the the json-server.\
 Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 
